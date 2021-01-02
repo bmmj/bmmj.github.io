@@ -1,0 +1,98 @@
+/*!
+ * BMMJ on GitHub v1.0.0 (https://bmmj.lenake.co/) 
+ * Copyright © 2016 - 2021 BMMJ Used Oil Collectors (PTY) Ltd. All rights reserved.
+ * Licensed under MIT (https://github.com/Bmmj/bmmj.github.io/blob/master/LICENSE)
+ */
+
+/*! Fonts - Fira Sans and Fontello.
+ *  Dimensions - Fira Sans
+ *  ------------------------
+ *  0: 400 - FiraSans-Regular.ttf
+ *  1: 400 - FiraSans-Italic.ttf
+ *  0: 500 - FiraSans-Medium.ttf
+ *  1: 500 - FiraSans-MediumItalic.ttf
+ *
+ *  Dimensions - Fontello
+ *  -------------------
+ *  normal - fontello.eot
+ *  normal - fontello.woff
+ *  normal - fontello.ttf
+ *  normal - fontello.svg
+ */
+
+/* Fira Sans */
+@font-face {
+    font-family: 'Fira Sans', sans-serif;
+    src: url('../fonts/FiraSans-Regular.ttf') format('truetype'),
+         url('../fonts/FiraSans-Italic.ttf') format('truetype');
+    font-weight: 400;
+    font-style: normal;
+    font-display: block;
+}
+
+@font-face {
+    font-family: 'Fira Sans', sans-serif;
+    src: url('../fonts/FiraSans-Medium.ttf') format('truetype'),
+         url('../fonts/FiraSans-MediumItalic.ttf') format('truetype');
+    font-weight: 500;
+    font-style: normal;
+    font-display: block;
+}
+
+/* Fontello */
+@font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.eot?13999958');
+    src: url('../font/fontello.eot?13999958#iefix') format('embedded-opentype'),
+        url('../font/fontello.woff?13999958') format('woff'),
+        url('../font/fontello.ttf?13999958') format('truetype'),
+        url('../font/fontello.svg?13999958#fontello') format('svg');
+    font-weight: normal;
+    font-style: normal;
+}
+
+/* Chrome hack: SVG is rendered more smooth in Windozze. 100% magic, uncomment if you need it. */
+/* Note, that will break hinting! In other OS-es font will be not as sharp as it could be */
+/*
+@media screen and (-webkit-min-device-pixel-ratio:0) {
+  @font-face {
+    font-family: 'fontello';
+    src: url('../font/fontello.svg?13999958#fontello') format('svg');
+  }
+}
+*/
+ 
+[class^="icon-"]:before, [class*=" icon-"]:before {
+    font-family: "fontello";
+    font-style: normal;
+    font-weight: normal;
+    speak: none;
+ 
+    display: inline-block;
+    text-decoration: inherit;
+    width: 1em;
+    margin-right: .2em;
+    text-align: center;
+    /* opacity: .8; */
+ 
+    /* For safety - reset parent styles, that can break glyph codes*/
+    font-variant: normal;
+    text-transform: none;
+     
+    /* fix buttons height, for twitter bootstrap */
+    line-height: 1em;
+ 
+    /* Animation center compensation - margins should be symmetric */
+    /* remove if not needed */
+    margin-left: .2em;
+ 
+    /* you can be more comfortable with increased icons size */
+    /* font-size: 120%; */
+ 
+    /* Uncomment for 3D effect */
+    /* text-shadow: 1px 1px 1px rgba(127, 127, 127, 0.3); */
+}
+ 
+.icon-star:before { content: '\e800'; } /* '' */
+.icon-star-empty:before { content: '\e801'; } /* '' */
+.icon-fork:before { content: '\e802'; } /* '' */

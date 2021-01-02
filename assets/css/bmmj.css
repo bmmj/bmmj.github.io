@@ -1,0 +1,69 @@
+﻿@charset "UTF-8";
+/*!
+ * BMMJ on GitHub v1.0.0 (https://bmmj.github.io/) 
+ * Copyright © 2016 - 2021 BMMJ Used Oil Collectors (PTY) Ltd. All rights reserved.
+ * Licensed under MIT (https://github.com/Bmmj/bmmj.github.io/blob/master/LICENSE)
+ */
+
+@import url('https://fonts.googleapis.com/css2?family=Fira+Sans:ital,wght@0,400;0,500;1,400;1,500&display=swap');
+@import url('./themes/bm-theme-light.css');
+
+html, body {
+	height: 100%;
+	margin: 0;
+}
+
+body {
+	font-family: 'Fira Sans', sans-serif;
+	text-align: center;
+	font-size: 5vmin;
+	background: hsl(35, 100%, 95%);
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+	display: flex;
+	-webkit-box-align: center;
+	-webkit-align-items: center;
+	-ms-flex-align: center;
+	align-items: center;
+	-webkit-box-pack: center;
+	-webkit-justify-content: center;
+	-ms-flex-pack: center;
+	justify-content: center;
+	-webkit-flex-direction: column;
+	flex-direction: column;
+}
+
+h1 {
+	font-weight: 500;
+	margin-bottom: 1em;
+}
+
+em {
+	position: relative;
+	top: .1em;
+}
+
+img {
+	vertical-align: middle;
+	width: 35vmin;
+}
+
+h2 {
+	margin: 2vmin 0;
+}
+
+ul {
+	list-style-type: none;
+	margin: 0;
+	padding: 0;
+}
+
+a {
+	color: #0095DD;
+	text-decoration: none;
+}
+
+a:hover {
+	text-decoration: underline;
+}

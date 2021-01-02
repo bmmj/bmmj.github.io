@@ -1,4 +1,4 @@
 [bmmj.github.io](https://bmmj.github.io)
 ===================
 
- The BMMJ project powered by GitHub Pages on this domain.
+ The project repository that powers BMMJ web development and website content, hosted on GitHub pages on this domain.
